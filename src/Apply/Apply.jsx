@@ -3,7 +3,7 @@ import section from "../../public/sec.png";
 
 const Apply = () => {
   return (
-    <div className="mt-24">
+    <div className="lg:mt-24 md:mt-28">
       <div>
         <p className=" text-gray-200 text-2xl lg:text-4xl md:text-2xl md:font-semibold text-center w-11/12 lg:w-1/2 md:w-1/2 mx-auto my-16">
           Apply On Any Section Or Enable For Whole Page
@@ -12,7 +12,7 @@ const Apply = () => {
 
         <div className="lg:flex lg:justify-between lg:px-4 px-3 gap-5 md:flex md:justify-between">
           {/* sec 01 */}
-          <section className="lg:w-8/12 bg-[#0e0720] md:w-6/12  rounded-2xl border border-gray-700 md:p-5 pb-6">
+          <section className="lg:w-8/12 bg-[#0e0720] md:w-6/12  rounded-2xl border border-gray-700 md:p-5 pb-6 lg:mb-14 md:mb-16">
             <p className="text-2xl pt-10 pl-6 text-center text-gray-200">Apply On Section</p>
             <p className="py-5 pl-6 text-center px-2">
               Apply on section is a game-changer, offering an unparalleled way
@@ -25,7 +25,7 @@ const Apply = () => {
 
           
 
-          <section className="lg:w-8/12 bg-[#0e0720]  md:w-6/12 lg:h-full rounded-2xl border border-gray-700 md:p-5 md:mt-16">
+          <section className="lg:w-8/12 bg-[#0e0720]  md:w-6/12 lg:h-full rounded-2xl border border-gray-700 md:p-5 md:mt-16 mt-3">
             <p className="text-2xl pt-10 pl-6 text-center text-gray-200">Apply On page</p>
             <p className="py-5 pl-6 text-center px-2">
             Take your website to new heights with Motion Art for Elementor.

@@ -9,7 +9,7 @@ const Browser = () => {
           Supported by All Popular Browsers
         </p>
 
-        <p className="text-center md:text-xl lg:text-xl md:w-8/12 md:ml-28 lg:ml-72 lg:w-6/12 py-4 ">
+        <p className="text-center text-xl w-full md:text-xl lg:text-xl md:w-8/12 md:ml-28 lg:ml-72 lg:w-6/12 py-4 ">
           Rest assured, Motion Art is designed to be compatible with all major
            web browsers
         </p>
