@@ -6,10 +6,10 @@ import star from '../../public/5star.png'
 const Users = () => {
     return (
         <div>
-            <p className=" my-20 text-center  text-white lg:text-2xl text-2xl">Trusted by thousands of users around the world</p>
+            <p className=" my-20 text-center  text-gray-200 lg:text-2xl px-3 text-2xl">Trusted by thousands of users around the world</p>
 
 
-            <div className='grid grid-cols-1 px-6 gap-11 md:grid-cols-2 lg:flex lg:px-3 lg:justify-between'>
+            <div className='grid grid-cols-1 px-6 gap-11 md:flex md:justify-around lg:flex lg:px-3 lg:justify-around'>
                 {/* sec 01 */}
                 <section className='flex gap-3'>
                     <div>
@@ -35,7 +35,21 @@ const Users = () => {
 
 
                 {/* sec 03 */}
-                <section className='flex gap-3'>
+                <section className='flex gap-3 lg:block md:hidden'>
+                    <div>
+                    <img src={logo3} alt="" />
+                    </div>
+
+                    <div className='mt-4 '>
+                    <img src={star} alt="" />
+                    <p className='pt-4'>4.5 Score, 9 Reviews</p>
+                    </div>
+                </section>
+                
+            </div>
+
+            <div className='hidden lg:hidden md:block'> 
+            <section className='flex gap-3 ml-64 mt-10'>
                     <div>
                     <img src={logo3} alt="" />
                     </div>
@@ -46,6 +60,8 @@ const Users = () => {
                     </div>
                 </section>
             </div>
+
+            
             
         </div>
     );

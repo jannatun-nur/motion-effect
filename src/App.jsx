@@ -1,3 +1,4 @@
+import Advertise from "./Advertise/Advertise"
 import Apply from "./Apply/Apply"
 import Banner from "./Banner/Banner"
 import Browser from "./Browser/Browser"
@@ -16,6 +17,7 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
+      <Advertise/>
       <Users/>
       <Visit/>
       <Apply/>
